@@ -6,15 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:background="@drawable/fundomain"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/maintext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:fontFamily="serif"
-        android:text="Forca - Terror edition"
+        android:gravity="center"
+        android:text="Forca"
         android:textColor="#ED0000"
         android:textSize="50sp"
         android:textStyle="bold" />
@@ -22,26 +23,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I want to play a game..."
+        android:layout_gravity="bottom"
+        android:text="Do you like scary movies?"
         android:textColor="#E70000"
         android:textSize="20sp"
-        android:gravity="bottom"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textColor="@color/black"
+        android:background="@color/black"
         android:text="Modo Fácil" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textColor="@color/black"
+        android:background="@color/black"
         android:text="Modo Difícil" />
 
 </LinearLayout>
