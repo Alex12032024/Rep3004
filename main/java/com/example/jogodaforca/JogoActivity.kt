@@ -10,7 +10,7 @@ class JogoActivity : AppCompatActivity() {
     private lateinit var binding: ActivityJogoBinding
 
     // Lista de palavras possíveis para o jogo
-    private val palavras = listOf("pânico", "corra", "psicose", "X", "IT", "Imaculada", "Nós", "Carrie", "Rua do medo")
+    private val palavras = listOf("pânico", "corra", "psicose", "IT", "Imaculada", "Nós", "Carrie", "Rua do medo")
 
     // Seleciona uma palavra aleatória da lista e a converte para maiúsculas
     private val palavraSelecionada = palavras.random().uppercase()
