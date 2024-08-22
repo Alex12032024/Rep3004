@@ -2,7 +2,6 @@ package com.example.jogodaforca
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.jogodaforca.databinding.ActivityJogoBinding
 import com.example.jogodaforca.databinding.ActivityJogodificilBinding
 
 // Definição da classe MainActivity que herda de AppCompatActivity
@@ -11,7 +10,7 @@ class JogoDificilActivity : AppCompatActivity() {
     private lateinit var binding: ActivityJogodificilBinding
 
     // Lista de palavras possíveis para o jogo
-    private val palavras = listOf("Colheita Maldita", "o albergue", "deixe ela entrar", "Um lugar silencioso", "A autopsia de Jane Doe", "O mal que nos habita")
+    private val palavras = listOf("Colheita Maldita", "a hora do pesadelo", "deixe ela entrar", "Um lugar silencioso", "A autopsia de Jane Doe", "O mal que nos habita")
 
     // Seleciona uma palavra aleatória da lista e a converte para maiúsculas
     private val palavraSelecionada = palavras.random().uppercase()
