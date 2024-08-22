@@ -11,7 +11,7 @@ class JogoDificilActivity : AppCompatActivity() {
     private lateinit var binding: ActivityJogodificilBinding
 
     // Lista de palavras possíveis para o jogo
-    private val palavras = listOf("Colheita Maldita", "o albergue", "deixe ela entrar")
+    private val palavras = listOf("Colheita Maldita", "o albergue", "deixe ela entrar", "Um lugar silencioso", "A autopsia de Jane Doe", "O mal que nos habita")
 
     // Seleciona uma palavra aleatória da lista e a converte para maiúsculas
     private val palavraSelecionada = palavras.random().uppercase()
